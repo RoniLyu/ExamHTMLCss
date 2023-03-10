@@ -1,0 +1,49 @@
+.top {
+  height: 100vh;
+  background-image: url('../img/bg-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 23px 40px 0 40px;
+}
+
+.top .top-main {
+  height: calc(100vh - 57px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top .top-main h1 {
+  font-size: 150px;
+  letter-spacing: 0.3em;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.top .top-main p {
+  font-size: 28px;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 1200px){
+  .top .top-main h1 {
+    font-size: 90px;
+    letter-spacing: 0.3em;
+    margin-bottom: 143px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .top .top-main h1 {
+    font-size: 40px;
+    letter-spacing: 0.3em;
+    margin-top: 85px;
+    margin-bottom: 47px;
+  }
+
+  .top .top-main p {
+    font-size: 18px;
+  }
+  
+}
